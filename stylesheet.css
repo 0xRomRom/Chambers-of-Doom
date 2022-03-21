@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Nosifer&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ravi+Prakash&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Turret+Road:wght@700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+/*Header*/
+
+header {
+  height: 100vh;
+  width: 100%;
+  background: black;
+  color: white;
+  background-image: url("bannertje.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.front-logo {
+  position: absolute;
+  width: 3.5vw;
+  height: 3.5vw;
+  top: 2vh;
+  left: 2vw;
+}
+
+a {
+  color: white;
+  padding: 10px 35px;
+  text-decoration: none;
+  font-family: "Turret Road", cursive;
+  font-size: 1vw;
+  letter-spacing: 3px;
+}
+
+ul.nav-links {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  justify-content: center;
+  list-style: none;
+  padding: 20px 60px;
+  margin-left: -130px;
+  top: 2vh;
+  transition: all 1s ease-in-out 1s;
+}
+
+.nav-links a:hover {
+  font-size: 1.2vw;
+  background: rgb(0, 0, 0, 0.3);
+}
+
+.header-cont {
+  position: absolute;
+  display: flex;
+  width: 50vw;
+  height: 60vh;
+  left: 80px;
+  top: 15vh;
+}
+
+.title {
+  position: absolute;
+  font-family: "Nosifer", cursive;
+  font-size: 3.4vw;
+  color: rgb(243, 17, 17);
+  text-shadow: 9px 9px 12px rgb(29, 9, 211);
+}
+
+.title-text {
+  position: absolute;
+  color: rgb(255, 255, 255);
+  font-size: 2vw;
+  top: 270px;
+  font-family: "Ravi Prakash", cursive;
+  letter-spacing: 2px;
+  text-shadow: 4px 5px 2px rgb(0, 0, 0);
+}
+
+.brave-btn {
+  text-decoration: none;
+  border: none;
+  border-radius: 25px;
+  background: rgb(29, 9, 211);
+  color: rgb(243, 17, 17);
+  position: absolute;
+  padding: 10px 20px;
+  left: 700px;
+  top: 800px;
+  font-family: "Nosifer", cursive;
+  font-size: 1.2rem;
+  text-shadow: 2px 2px 3px rgb(0, 0, 0);
+  transition: all 100ms ease-in 100ms;
+  cursor: pointer;
+  letter-spacing: 2px;
+}
+
+.brave-btn:hover {
+  background: black;
+  color: white;
+  font-size: 1.25rem;
+  box-shadow: 5px 15px 25px black;
+}
+
+/*Block 1*/
+
+.block1 {
+  background-image: url("bannertje2.jpg");
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.flexbox1 {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 40%;
+  height: 40vh;
+  top: 20vh;
+  left: 12vw;
+
+  gap: 1rem;
+}
+
+#blockhead {
+  font-family: "Turret Road", cursive;
+  color: white;
+  padding: 0;
+  font-size: 2vw;
+  position: relative;
+  top: 7vh;
+  left: 5vw;
+  font-size: 3.5vw;
+  display: inline-block;
+  text-shadow: 3px 3px 3px black;
+}
+
+.blocktext1,
+.blocktext2 {
+  font-family: "Turret Road", cursive;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-size: 2.5vw;
+  text-shadow: 3px 3px 3px black;
+}
+
+.blocktext3,
+.blocktext4,
+.blocktext5 {
+  font-family: "Turret Road", cursive;
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-size: 2.5vw;
+  text-shadow: 3px 3px 3px black;
+}
+
+hr {
+  width: 100%;
+}
+
+.socials {
+  display: flex;
+  position: absolute;
+  flex-direction: row;
+  top: 62vh;
+  left: 15vw;
+}
+
+.social-links {
+  position: relative;
+  height: 6vh;
+  width: 4vw;
+  transition: all 0.3s ease 0.2s;
+}
+
+.social-links:hover {
+  width: 4vw + 10%;
+}
